@@ -8,9 +8,10 @@
 
 import Foundation
 
-class AreaCalculator : NSObject {
+class AreaCalculator {
     
     func calculate(shapes: Array<ShapeArea>) -> Float {
+        
         return shapes.map({$0.area()}).reduce(0, +)
     }
 }

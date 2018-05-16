@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Traingle: NSObject {
+class Traingle {
     var width: Float = 0.0
     var height: Float = 0.0
 

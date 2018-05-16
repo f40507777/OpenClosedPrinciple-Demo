@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Square: NSObject {
+class Square {
     var width: Float = 0.0
     
     required init(width: Float) {        

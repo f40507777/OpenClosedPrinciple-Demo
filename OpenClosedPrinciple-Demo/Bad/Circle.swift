@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Circle: NSObject {
+class Circle {
     var radius: Float = 0.0
     
     required init(radius: Float) {        

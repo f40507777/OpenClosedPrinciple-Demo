@@ -8,7 +8,7 @@
 
 import Foundation
 
-class AreaCalculator : NSObject {
+class AreaCalculator {
     
     func calculate(shapes: Array<Any>) -> Float {
         var area:Float = 0
