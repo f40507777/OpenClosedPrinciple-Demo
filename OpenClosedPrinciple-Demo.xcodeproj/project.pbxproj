@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B6947A0420AC272C00A51DE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6947A0320AC272C00A51DE3 /* main.swift */; };
+		B6947A1D20AC361200A51DE3 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6947A1920AC361200A51DE3 /* Circle.swift */; };
+		B6947A1E20AC361200A51DE3 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6947A1A20AC361200A51DE3 /* Triangle.swift */; };
+		B6947A1F20AC361200A51DE3 /* AreaCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6947A1B20AC361200A51DE3 /* AreaCalculator.swift */; };
+		B6947A2020AC361200A51DE3 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6947A1C20AC361200A51DE3 /* Square.swift */; };
+		B6947A2220AC362A00A51DE3 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6947A2120AC362A00A51DE3 /* Shape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,15 @@
 /* Begin PBXFileReference section */
 		B6947A0020AC272C00A51DE3 /* OpenClosedPrinciple-Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OpenClosedPrinciple-Demo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6947A0320AC272C00A51DE3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B6947A0A20AC27C900A51DE3 /* AreaCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCalculator.swift; sourceTree = "<group>"; };
+		B6947A0E20AC298200A51DE3 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		B6947A1020AC299500A51DE3 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		B6947A1220AC32D800A51DE3 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		B6947A1920AC361200A51DE3 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		B6947A1A20AC361200A51DE3 /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		B6947A1B20AC361200A51DE3 /* AreaCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaCalculator.swift; sourceTree = "<group>"; };
+		B6947A1C20AC361200A51DE3 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		B6947A2120AC362A00A51DE3 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +71,34 @@
 		B6947A0220AC272C00A51DE3 /* OpenClosedPrinciple-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				B6947A1420AC33C100A51DE3 /* Bad */,
+				B6947A1520AC34FA00A51DE3 /* Good */,
 				B6947A0320AC272C00A51DE3 /* main.swift */,
 			);
 			path = "OpenClosedPrinciple-Demo";
+			sourceTree = "<group>";
+		};
+		B6947A1420AC33C100A51DE3 /* Bad */ = {
+			isa = PBXGroup;
+			children = (
+				B6947A0A20AC27C900A51DE3 /* AreaCalculator.swift */,
+				B6947A0E20AC298200A51DE3 /* Circle.swift */,
+				B6947A1020AC299500A51DE3 /* Square.swift */,
+				B6947A1220AC32D800A51DE3 /* Triangle.swift */,
+			);
+			path = Bad;
+			sourceTree = "<group>";
+		};
+		B6947A1520AC34FA00A51DE3 /* Good */ = {
+			isa = PBXGroup;
+			children = (
+				B6947A1B20AC361200A51DE3 /* AreaCalculator.swift */,
+				B6947A2120AC362A00A51DE3 /* Shape.swift */,
+				B6947A1920AC361200A51DE3 /* Circle.swift */,
+				B6947A1C20AC361200A51DE3 /* Square.swift */,
+				B6947A1A20AC361200A51DE3 /* Triangle.swift */,
+			);
+			path = Good;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6947A2020AC361200A51DE3 /* Square.swift in Sources */,
+				B6947A2220AC362A00A51DE3 /* Shape.swift in Sources */,
+				B6947A1E20AC361200A51DE3 /* Triangle.swift in Sources */,
 				B6947A0420AC272C00A51DE3 /* main.swift in Sources */,
+				B6947A1F20AC361200A51DE3 /* AreaCalculator.swift in Sources */,
+				B6947A1D20AC361200A51DE3 /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
