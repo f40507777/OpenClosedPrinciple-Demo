@@ -11,9 +11,7 @@ import Foundation
 class Circle: NSObject {
     var radius: Float = 0.0
     
-    required init(radius: Float) {
-        super.init()
-        
+    required init(radius: Float) {        
         self.radius = radius
     }
 }

@@ -11,9 +11,7 @@ import Foundation
 class Square: NSObject {
     var width: Float = 0.0
     
-    required init(width: Float) {
-        super.init()
-        
+    required init(width: Float) {        
         self.width = width
     }
 }

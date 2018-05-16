@@ -8,11 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B6947A0420AC272C00A51DE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6947A0320AC272C00A51DE3 /* main.swift */; };
-		B6947A1D20AC361200A51DE3 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6947A1920AC361200A51DE3 /* Circle.swift */; };
-		B6947A1E20AC361200A51DE3 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6947A1A20AC361200A51DE3 /* Triangle.swift */; };
-		B6947A1F20AC361200A51DE3 /* AreaCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6947A1B20AC361200A51DE3 /* AreaCalculator.swift */; };
-		B6947A2020AC361200A51DE3 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6947A1C20AC361200A51DE3 /* Square.swift */; };
-		B6947A2220AC362A00A51DE3 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6947A2120AC362A00A51DE3 /* Shape.swift */; };
+		B6947A2320AC3EB900A51DE3 /* AreaCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6947A0A20AC27C900A51DE3 /* AreaCalculator.swift */; };
+		B6947A2420AC3EBC00A51DE3 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6947A0E20AC298200A51DE3 /* Circle.swift */; };
+		B6947A2520AC3EBE00A51DE3 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6947A1020AC299500A51DE3 /* Square.swift */; };
+		B6947A2620AC3EC000A51DE3 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6947A1220AC32D800A51DE3 /* Triangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -158,12 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6947A2020AC361200A51DE3 /* Square.swift in Sources */,
-				B6947A2220AC362A00A51DE3 /* Shape.swift in Sources */,
-				B6947A1E20AC361200A51DE3 /* Triangle.swift in Sources */,
+				B6947A2520AC3EBE00A51DE3 /* Square.swift in Sources */,
+				B6947A2320AC3EB900A51DE3 /* AreaCalculator.swift in Sources */,
+				B6947A2620AC3EC000A51DE3 /* Triangle.swift in Sources */,
 				B6947A0420AC272C00A51DE3 /* main.swift in Sources */,
-				B6947A1F20AC361200A51DE3 /* AreaCalculator.swift in Sources */,
-				B6947A1D20AC361200A51DE3 /* Circle.swift in Sources */,
+				B6947A2420AC3EBC00A51DE3 /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

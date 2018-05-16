@@ -12,9 +12,7 @@ class Traingle: NSObject {
     var width: Float = 0.0
     var height: Float = 0.0
 
-    required init(width: Float, height: Float) {
-        super.init()
-        
+    required init(width: Float, height: Float) {        
         self.width = width
         self.height = height
     }
