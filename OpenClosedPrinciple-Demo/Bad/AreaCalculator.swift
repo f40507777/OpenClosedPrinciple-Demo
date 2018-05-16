@@ -14,14 +14,11 @@ class AreaCalculator {
         var area:Float = 0
         
         for shape in shapes {
-            if shape is Square {
-                let square = shape as! Square
+            if let square = shape as? Square {
                 area = area + pow(square.width , 2)
-            } else if shape is Circle {
-                let circle = shape as! Circle
+            } else if let circle = shape as? Circle {
                 area = area + pow(circle.radius , 2) * Float.pi
-            } else if shape is Traingle {
-                let traingle = shape as! Traingle
+            } else if let traingle = shape as? Traingle {
                 area = area + traingle.width * traingle.height / 2
             }
         }
